@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WifiChoose</string>
+    <string name="label">Wifi Signal</string>
+    <string name="Wifi">Melhor Wifi: </string>
+    <string name="textButton">Search Signal</string>
+    <string name="value"></string>
+    <string name="listView">lista</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
+
