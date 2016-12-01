@@ -31,7 +31,7 @@ import com.firebase.client.ValueEventListener;
 
 public class WifiActivity extends AppCompatActivity
     {
-        String SSID="aaaaa";
+        String SSID="";
         int Level=-200;
         String Crypto="";
         String PassWord="";
@@ -90,7 +90,6 @@ public class WifiActivity extends AppCompatActivity
                     int netId = wifimanager.addNetwork(wc);
                     wifimanager.enableNetwork(netId, true);
                     wifimanager.reconnect();
-                    wifimanager.saveConfiguration();
                     Mostrando.setText("Voce esta conectado em "+SSID);
 
                 }
